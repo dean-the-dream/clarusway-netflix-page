@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
@@ -7,7 +7,7 @@
 html, body{
     height: 100%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    background-image: url(background_image.jpg);
+    background-image: url(/images/background_image.jpg);
     color: white;  
     position: relative;
     
@@ -35,16 +35,28 @@ header, h1{
 }
 
 #form-box{
-    border: 3px solid white;
+    /* border: 3px solid white; */
+   position: absolute;
+   border: 3px solid white;
+   height:auto;
    
 }
+
 form{
-    border: 3px solid green;
+    /* border: 3px solid green; */
     width: 20%;
     height: 85%;
     margin: auto;
-    /* width: 25%;
-    padding: 20px; */
+    /* width: 25%; */
+    padding: 20px;
     background-color: rgba(0, 0, 0, .8);
     text-align: left;
+}
+
+
+
+.widebox{
+    width: 100%;
+    margin-top: 10px;
+    border: 3px solid green;
 }
