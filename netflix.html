@@ -9,49 +9,50 @@
 </head>
 <body>
     <div id="transparent-overlay">
+
         <header>
             <h1>Net<span>Flix</span></h1>
             <h5>Thank you for signing up at Netflix. Tell us more about yourself</h5>
         </header>
-        
+
+        <form id="form" action="">
             <div id="form-box">
-                <form id="form" action="">
-                    Name <br>
-                    <input class="widebox" type="text" placeholder="Enter your name"> <br><br>
+                <label for="name">Name</label> <br>
+                <input name="name" class="widebox"  type="text" placeholder="Enter your name"> <br><br>
 
-                    Age <br>
-                    <input class="widebox" type="number" min="18" max="120" placeholder="Age"> <br><br>
+                <label for="age">Age</label> <br>
+                <input name="age"class="widebox" type="number" min="18" max="120" placeholder="Age"> <br><br>
 
-                    Email <br>
-                    <input class="widebox" type="email" placeholder="Enter you email"> <br><br>
+                <label for="email">Email </label> <br>
+                <input name="email" class="widebox" type="email" placeholder="Enter you email"> <br><br>
 
-                    Content type <br>
-                    <select name="" id="">
-                        <option value="Series" selected>Series</option>
-                        <option value="Movies">Movies</option>
-                        <option value="Limited Series">Limited Series</option>
-                        <option value="Anime">Anime</option>
-                    </select> <br><br>
+                <label for="content">Content Type</label> <br>
+                <select name="content" id="">
+                    <option value="Series" selected>Series</option>
+                    <option value="Movies">Movies</option>
+                    <option value="Limited Series">Limited Series</option>
+                    <option value="Anime">Anime</option>
+                </select> <br><br>
 
-                    Movie type <br>
-                    <input type="checkbox">Comendy <br>
-                    <input type="checkbox">Action <br>
-                    <input type="checkbox">Romance <br><br>
+                <label for="movie">Movie Type</label> <br>
+                <input name="movie" type="checkbox">Comendy <br>
+                <input name="movie" type="checkbox">Action <br>
+                <input name="movie" type="checkbox">Romance <br><br>
 
-                    Gender <br>
-                    <input type="radio" name="gender" value="Male"> Male <br>
-                    <input type="radio" name="gender" value="Female"> Female <br><br>
+                <label for="gender">Gender</label> <br>
+                <input name="gender" type="radio" name="gender" value="Male"> Male <br>
+                <input name="gender" type="radio" name="gender" value="Female"> Female <br><br>
 
-                    Feedback <br>
-                    <textarea name="" id="textbox" cols="30" rows="10" placeholder="Any comment"></textarea> <br><br>
+                <label for="feedback">Feedback</label> <br>
+                <textarea name="feedback" id="textbox" cols="30" rows="10" placeholder="Any comment"></textarea> <br><br>
 
-                    <section id="submit">
-                        <input   type="submit" value="Submit" >
-                    </section>
-                    
-
-                </form>
-            </div>
+                <!-- <section id="submit">
+                    <input   type="submit" value="Submit" >
+                </section> -->
+                <button type="submit">Submit</button>
+            </div> 
+        </form>
+            
             
         
         

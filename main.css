@@ -2,46 +2,27 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-
 }
+
 body{
     background-image: url(background_image.jpg);
-    color: white;
-    
+    color: white;  
 }
+
 #transparent-overlay{
     background-color: rgba(0, 0, 0, .3);
     margin: 20px 40px;
     text-align: center;
-
 }
+
 header h1 span{
     color: red;
 }
-/* #form-box{
-    border: 3px yellow solid;
-    width: 30%;
+
+form{
     margin: auto;
-    
-    
-} */
-form {
-    margin: auto;
-    /* border: solid blue 3px; */
     width: 25%;
     padding: 20px;
     background-color: rgba(0, 0, 0, .8);
     text-align: left;
-    /* top: 20px */
-}
-.widebox{
-    width: 98%;
-    height: 32px;
-}
-#textbox{
-    width: 98%;
-}
-#submit{
-    
-    border: white solid 3px;
 }
