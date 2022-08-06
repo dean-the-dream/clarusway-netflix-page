@@ -1,22 +1,30 @@
 *{
-    margin: 0%;
+    margin: 0;
     padding: 0%;
     box-sizing: border-box;
 }
 
-body{
+html, body{
+    height: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     background-image: url(background_image.jpg);
     color: white;  
-}
+    position: relative;
+    
+    border: 3px blue solid;
 
-#transparent-overlay{
-    background-color: rgba(0, 0, 0, .3);
-    margin: 20px 40px;
-    text-align: center;
 }
 
 header h1 span{
     color: red;
+}
+
+#transparent-overlay{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    text-align: center;
 }
 
 form{
