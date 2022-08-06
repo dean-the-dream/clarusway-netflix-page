@@ -18,19 +18,33 @@ html, body{
 header h1 span{
     color: red;
 }
-
-#transparent-overlay{
-    position:absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .3);
-    text-align: center;
+header, h1{
+    margin-bottom: 20px;
 }
 
+#transparent-overlay{
+    position: absolute;
+    height: 98%;
+    width: 96%;
+    left: 2%;
+    top: 1%;
+    background-color: rgba(0, 0, 0, .3);
+    text-align: center;
+    border: 3px solid white;
+    
+}
+
+#form-box{
+    border: 3px solid white;
+   
+}
 form{
+    border: 3px solid green;
+    width: 20%;
+    height: 85%;
     margin: auto;
-    width: 25%;
-    padding: 20px;
+    /* width: 25%;
+    padding: 20px; */
     background-color: rgba(0, 0, 0, .8);
     text-align: left;
 }
