@@ -18,20 +18,30 @@ body{
 header h1 span{
     color: red;
 }
-#form-box{
+/* #form-box{
     border: 3px yellow solid;
     width: 30%;
     margin: auto;
-    text-align: left;
-    background-color: rgba(0, 0, 0, .7);
-}
+    
+    
+} */
 form {
     margin: auto;
-    border: solid blue 3px;
-    width: 80%;
+    /* border: solid blue 3px; */
+    width: 25%;
     padding: 20px;
+    background-color: rgba(0, 0, 0, .8);
+    text-align: left;
     /* top: 20px */
 }
-input{
-    width: 80%;
+.widebox{
+    width: 98%;
+    height: 32px;
+}
+#textbox{
+    width: 98%;
+}
+#submit{
+    
+    border: white solid 3px;
 }
