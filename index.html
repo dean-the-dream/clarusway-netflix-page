@@ -4,21 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
     <title>Netflix</title>
 </head>
 <body>
-    <div id="transparent-overlay">
-
+    <div id="container">
         <header>
-            <h1 id="title">Net<span>Flix</span></h1>
+            <h1 id="title">NET<span>FLIX</span></h1>
             <h3 id="description">Thank you for signing up at Netflix. Tell us more about yourself</h5>
         </header>
-
-        <section id="form-container"></section>
-        <form id="form" action="results.html">
-
-            <div id="form-box">
+        <section id="form-container">
+            <form id="form" action="results.html">
                 <div class="input-box">
                     <label for="name">Name</label> <br>
                     <input name="name" class="widebox"  type="text" placeholder="Enter your name"> <br>
@@ -31,31 +27,45 @@
                     <label for="email">Email</label> <br>
                     <input name="email" class="widebox" type="email" placeholder="Enter you email"> <br>
                 </div>
-                <label for="content">Content Type</label> <br>
-                <select name="content" class="widebox" id="">
-                    <option value="Series" selected>Series</option>
-                    <option value="Movies">Movies</option>
-                    <option value="Limited Series">Limited Series</option>
-                    <option value="Anime">Anime</option>
-                </select> <br><br>
-
-                <label for="movie">Movie Type</label> <br>
-                <input name="movie" type="checkbox"> Comendy<br>
-                <input name="movie" type="checkbox"> Action<br>
-                <input name="movie" type="checkbox"> Romance<br><br>
-                <label for="gender">Gender</label> <br>
-                <input name="gender" type="radio" name="gender" value="Male"> Male <br>
-                <input name="gender" type="radio" name="gender" value="Female"> Female <br><br>
-
-                <label for="feedback">Feedback</label> <br>
-                <textarea name="feedback" class="widebox" id="textbox" cols="30" rows="10" placeholder="Any comment"></textarea> <br><br>
-
-                <!-- <section id="submit">
-                    <input   type="submit" value="Submit" >
-                </section> -->
-                <button type="submit">Submit</button>
-            </div> 
-        </form>
+                <div class="input-box">
+                    <label for="content">Content Type</label> <br>
+                    <select name="content" class="widebox" id="">
+                        <option value="Series" selected>Series</option>
+                        <option value="Movies">Movies</option>
+                        <option value="Limited Series">Limited Series</option>
+                        <option value="Anime">Anime</option>
+                    </select> <br><br>
+                </div>
+                <div class="input-box">
+                    <label for="movie">Movie Type</label> <br>
+                    <input name="movie" type="checkbox"> Comendy<br>
+                    <input name="movie" type="checkbox"> Action<br>
+                    <input name="movie" type="checkbox"> Romance<br><br>
+                </div>
+                <div class="input-box">
+                    <label for="movie">Movie Type</label> <br>
+                    <input name="movie" type="checkbox"> Comendy<br>
+                    <input name="movie" type="checkbox"> Action<br>
+                    <input name="movie" type="checkbox"> Romance<br><br>
+                    
+                </div>
+                <div class="input-box">
+                    <label for="gender">Gender</label> <br>
+                    <input name="gender" type="radio" name="gender" value="Male"> Male <br>
+                    <input name="gender" type="radio" name="gender" value="Female"> Female <br>
+                </div>
+                <div class="input-box">
+                    <label for="feedback">Feedback</label> <br>
+                    <textarea name="feedback" 
+                              class="widebox"
+                              id="textbox" cols="30" rows="10" placeholder="Any comment">
+                    </textarea> <br>
+                </div>
+                <div id="submitbutton">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>      
     </div>   
 </body>
 </html>
