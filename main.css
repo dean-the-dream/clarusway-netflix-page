@@ -6,32 +6,71 @@
 
 body{
     background: url("./images/background_image.jpg");
-    color: white;
-    height: 100%;
-    
+    color: white
 }
 
-body div#container {   
+body div#container{
     background-color: rgba(0, 0, 0, .5);
-    width:90%;
-    margin: auto;
-    top: 20px
+    margin: 30px;
+    min-width: 550px
 }
 
-body div header {
+body div header{
     text-align: center;
+    
 }
 
-body div header h1 {
-    
+body div header h1{
     text-transform: uppercase;
-
+    padding: 5px
 }
 
 body div header h1 span{
-    color: red;
+    color: red
 }
 
-div#container main{
-    margin:auto;
+body div main{
+    background-color: rgba(0, 0, 0, .7) ;
+    width: 500px;
+    margin: auto;
+    padding: 20px
 }
+
+input, select, textarea{
+    width: 100%;
+}
+
+.form-content label{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+  
+
+.form-content{
+    display: block;
+}
+
+input[type=checkbox],
+input[type=radio]{
+width:auto;
+} 
+
+.text-center{
+    margin:auto;
+    position: relative;
+    background-color: red;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border-radius:50px;
+}
+
+button{
+    color: white;
+    height: 100%;
+    background-color: red;
+    border: none;
+    font-size: 20px;
+}
+
+
