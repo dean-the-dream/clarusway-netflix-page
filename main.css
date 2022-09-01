@@ -6,13 +6,18 @@
 
 body{
     background: url("./images/background_image.jpg");
-    color: white
+    color: white;
+    height: 110vh;
 }
 
 body div#container{
     background-color: rgba(0, 0, 0, .5);
     margin: 30px;
-    min-width: 550px
+    min-width: 550px;
+    height: 100%;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat
 }
 
 body div header{
@@ -32,12 +37,25 @@ body div header h1 span{
 body div main{
     background-color: rgba(0, 0, 0, .7) ;
     width: 500px;
-    margin: auto;
+    margin: 10px auto;
     padding: 20px
 }
 
 input, select, textarea{
     width: 100%;
+}
+
+input[name=name], input[name=age], input[name=email], input[name=content]{
+    padding: 4px;
+}
+
+div.form-content label + input, 
+div.form-content label + select{
+    
+}
+
+div.form-content > h1 {
+    font-size: 1.5rem
 }
 
 .form-content label{
