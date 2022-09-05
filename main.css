@@ -49,10 +49,6 @@ input[name=name], input[name=age], input[name=email], input[name=content]{
     padding: 4px;
 }
 
-div.form-content label + input, 
-div.form-content label + select{
-    
-}
 
 div.form-content > h1 {
     font-size: 1.5rem
